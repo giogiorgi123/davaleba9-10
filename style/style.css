@@ -1,0 +1,473 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.active {
+    background-color: #79B331;
+    color: #ffffff;
+}
+
+
+
+body {
+    background-image: url(../img/natura.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-color: #f5f5f5;
+    
+}
+
+
+header ul {
+    width: 594px;
+    margin-left: 600px;
+    margin-top: 50px;
+}
+
+header li {
+    background-color: #C4C4C4;
+    border-radius: 0 35px;
+    padding: 20px 20px;
+  
+}
+
+header li:hover {
+    background-color: #79B331;
+}
+
+li:hover a {
+    color: #ffffff;
+
+}
+
+
+header li a {
+    font-size: 18px;
+    color: #000000;
+}
+
+.martk {
+    width: 360px;
+    height: 155px;
+    position: absolute;
+    top: 220px;
+    left: 900px;
+}
+
+.wre {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #79B331;
+    position: relative;
+    animation: wretriali 6s infinite;
+}
+
+@keyframes wretriali {
+    0%{top: 0; left: 0;}
+    25%{top: 0; left: 358px;} 
+    50%{top: 123px; left: 358px;}
+    75% {top: 123px; left: 0;}
+    100%{top: 0; left: 0;}
+}
+
+
+.martk p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.martk p span {
+    font-size: 36px;
+}
+
+
+.didimartk {
+    width: 840px;
+    height: 500px;
+    position: absolute;
+    top: 450px;
+    left: 480px;
+}
+
+.gero {
+    position: relative;
+    top: 60px;
+    left: 50%;
+    background-color: #C4C4C4;
+    width: 1px;
+    height: 430px;
+    padding-top: 50px;
+}
+
+.totebi {
+    width: 490px;
+    position: absolute;
+    top: 0;
+    left: 12px;
+}
+
+.totebi:hover p  {
+    color: #79B331;
+}
+
+.totebi:hover .potoli {
+    background-color: #79B331;
+}
+
+.totebi p {
+    width: 400px;
+    font-size: 18px;
+}
+
+
+.potoli {
+    width: 70px;
+    height: 70px;
+    background-color: #C4C4C4;
+    border-radius: 0 35px;
+}
+
+.totebi2 {
+    width: 400px;
+    position: absolute;
+    top: 100px;
+    right: 20px;
+}
+
+
+.totebi2 p {
+    width: 350px;
+    font-size: 18px;
+}
+
+.potoli2 {
+    width: 70px;
+    height: 70px;
+    background-color: #C4C4C4;
+    border-radius: 0 35px;
+    transform: rotate(-90deg);
+}
+
+.totebi2:hover p  {
+    color: #79B331;
+}
+
+.totebi2:hover .potoli2 {
+    background-color: #79B331;
+}
+
+
+.totebi3 {
+    width: 570px;
+    position: absolute;
+    top: 200px;
+    right: 500px;
+}
+
+.totebi3 p {
+    width: 490px;
+    font-size: 18px;
+}
+
+.totebi3:hover p  {
+    color: #79B331;
+}
+
+.totebi3:hover .potoli {
+    background-color: #79B331;
+}
+
+
+
+.totebi4 {
+    width: 500px;
+    position: absolute;
+    top: 300px;
+    right: 0px;
+} 
+
+.totebi4 p {
+    width: 412px;
+    font-size: 18px;
+} 
+
+.totebi4:hover p  {
+    color: #79B331;
+}
+
+.totebi4:hover .potoli2 {
+    background-color: #79B331;
+}
+
+
+
+
+
+.magaziebismart {
+    position: absolute;
+    top: 200px;
+    right: 350px;
+    width: 450px;
+    flex-wrap: wrap;
+
+}
+
+.magaziebismart p {
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin-bottom: 48px;
+}
+
+.kvadrati {
+    width: 200px;
+    height: 200px;
+    background-color: #D9D9D9;
+    background-image: url(../img/shop1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+
+.text {
+    height: 80px; 
+    position: absolute;
+    display: none;
+    
+}
+
+.kvadrati .tb {
+    font-size: 12px;
+    color: #ffffff;
+    margin-top: 110px;
+    position: relative;
+    top: 0;
+    left: 68px;
+    
+}
+
+.kvadrati .address {
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    top: -40px;
+    left: 42px;
+}
+
+.fa-location-dot-icon {
+    color: #ffffff;
+    font-size: 14px;
+    position: relative;
+    top: -58px;
+    left: 92px;
+}
+
+
+
+.kvadrati:hover{
+    background-color: #79B331;
+    background-position-y: 30px;
+}
+
+.kvadrati:hover .text {
+    display: block;
+}
+
+.meore {
+    margin-bottom: 20px;
+}
+
+.mesame {
+    margin-bottom: 58px;
+}  
+
+.meotxe {
+    margin-bottom: 58px;
+} 
+
+
+.grdzelimartk {
+    width: 420px;
+    height: 70px;
+    background-color: #D9D9D9;
+    background-image: url(../img/shoplaptop.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 10px;
+
+}
+
+
+.grdzelimartk:hover {
+    background-color: #79B331;
+}
+.shopmartk {
+    width: 640px;
+    height: 420px;
+    position: absolute;
+    top: 340px;
+    left: 630px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.kvadrat {
+    height: 200px;
+    width: 200px;
+    background-color: #C4C4C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.kvadrat div {
+    width: 70px;
+    height: 70px;
+}
+
+.kvadrat div img {
+    width: 100%;
+}
+
+.kvadrat:hover  {
+    background-color: #79B331;
+}
+
+.kvadrat:hover img {
+    position: relative;
+    top: -30px;
+}
+
+.kvadrat .bio {
+    font-size: 18px;
+    width: 120px;
+    color: #ffffff;
+    position: relative;
+    left: -18px;
+    display: none;
+
+}
+
+.kvadrat:hover .bio {
+    display: block;
+}
+
+.detox {
+    font-size: 18px;
+    color: #ffffff;
+    display: none;
+}
+
+.kvadrat:hover .detox {
+    display: block;
+}
+
+.keto {
+    width: 130px;
+    text-align: center;
+    position: relative;
+    left: -26px;
+}
+
+.hygiene {
+    text-align: center;
+    width: 170px;
+    position: relative;
+    left: -46px;
+}
+.flexbox {
+    width: 800px;
+    position: absolute;
+    top: 232px;
+    left: 574px;
+}
+
+.box {
+    text-align: center;
+}
+
+.divimg {
+    width: 222px;
+    height: 222px;
+    overflow: hidden;
+}
+
+.divimg img {
+    width: 100%;
+}
+
+.price {
+    font-size: 20px;
+}
+
+.texti {
+    font-size: 18px;
+    margin-bottom: 14px;
+}
+
+.button {
+    width: 126px;
+    height: 38px;
+    background-color: #C4C4C4;
+    border-radius: 0 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.button a {
+    color: #000000;
+}
+
+.box2 {
+    text-align: center;
+}
+
+
+.price span {
+    font-size: 16px;
+}
+
+main nav {
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+}
+
+.shidanav li {
+    margin-bottom: 44px;
+
+}
+
+.shidanav li a {
+    position: relative;
+    color: #000000;
+}
+
+.active2::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #000000;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
